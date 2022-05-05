@@ -282,24 +282,25 @@ display: flex;
 }
 
 /* ------------СПИСОК ЗАНЯТИЙ-------------- */
-.work-section {
+.work {
   padding-bottom: 94px;
 }
-.section-title {
+.work__title {
   margin-bottom: 50px;
+  text-align: center;
 }
 .work-list {
   display: flex;
 
 }
-.work-item {
+.work-list__item {
   position: relative;
 
 }
-.work-item:not(:last-child) {
+.work-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.work-text {
+.work-list__text {
   width: 100%;
   position: absolute;
   bottom: 4px;
