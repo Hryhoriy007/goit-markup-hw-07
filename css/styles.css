@@ -68,18 +68,6 @@ ul {
   color: var(--primary-text-color);
 }
 
-.features-icon-fon {
-  display: flex;
-  width: 270px;
-  height: 120px;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-bottom: 30px;
-
-  background-color: var(--team-background-color);
-}
-
 .footer-contact-link {
   font-style: normal;
   font-size: 14px;
@@ -212,7 +200,7 @@ ul {
   text-align: center;
 }
 
-.hero-title {
+.hero__title {
   margin-bottom: 30px;
   margin-left: auto;
   margin-right: auto;
@@ -226,7 +214,7 @@ ul {
   color: var(--white-text-color);
 }
 
-.hero-btn {
+.hero__btn {
   display: inline-block;
   min-width: 200px;
   border-radius: 4px;
@@ -246,32 +234,38 @@ ul {
   cursor: pointer;
 }
 
-.hero-btn:focus {
-  background-color: var(--white-text-color);
-  color: var(--accent-color);
-}
-
 /* ------------ПРЕИМУЩЕСТВА-------------- */
 
-.features-section {
+.features {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.features-list {
-  display: flex;
+.features__list--style{
+list-style: none;
+display: flex;
 }
 
-.features-item:not(:last-child) {
+.features__list--item:not(:last-child) {
   margin-right: 30px;
   max-width: 270px;
 }
+.features__list--icon-fon {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 30px;
 
-.features-icon {
+  background-color: var(--team-background-color);
+}
+.features__list--icon {
   align-items: center;
 }
 
-.features-title {
+.features__list--title {
   margin-bottom: 10px;
 
   font-weight: 700;
@@ -280,7 +274,7 @@ ul {
   text-transform: uppercase;
 }
 
-.features-text {
+.features__list--text {
   font-size: 14px;
   line-height: 1.71;
 
