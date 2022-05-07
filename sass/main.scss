@@ -1,0 +1,39 @@
+// base
+@import './utils/variables';
+
+@import './base/base';
+@import './base/container';
+
+@import './components/logo';
+@import './components/section-title';
+@import './components/footer-contact.scss';
+// base end
+
+// Project elements
+@import './project-elements/header';
+@import './project-elements/hero';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import './layout/hero';
+@import './layout/features';
+@import './layout/work';
+@import './layout/team';
+@import './layout/client';
+@import './layout/footer';
+
+@import './portfolio/portfolio';
+@import './components/modal';
