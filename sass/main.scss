@@ -11,29 +11,16 @@
 
 // Project elements
 @import './project-elements/header';
+// @import './project-elements/modal';
 @import './project-elements/hero';
+@import './project-elements/features';
+@import './project-elements/work';
+@import './project-elements/team';
+@import './project-elements/client';
+@import './project-elements/footer';
+// Project elements end
 
+// Portfolio
+@import './portfolio/portfolio-elements.scss';
+// Portfolio end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@import './layout/hero';
-@import './layout/features';
-@import './layout/work';
-@import './layout/team';
-@import './layout/client';
-@import './layout/footer';
-
-@import './portfolio/portfolio';
-@import './components/modal';
